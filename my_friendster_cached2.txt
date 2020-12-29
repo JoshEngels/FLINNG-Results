@@ -1,0 +1,1400 @@
+Reading groundtruth and data ... 
+Done reading
+Starting total hash generation
+Starting index building and query grid parameter test
+Using groups!
+Initializing data hashes, array size 2624334640
+<<< LSH Parameters >>>
+_K 4
+_L 40
+_rangePow 19
+_hashType 2
+_lognumhash 7
+Optimal Densified Hashing intialized ...  
+STATS_GROUPS: 2 2000 19 40
+Creating index...
+Created index, used 90520ms. 
+Querying...
+Queried 3736 datapoints, used 57088ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.001 
+R@10 = 0.005 
+R@20 = 0.005 
+R@30 = 0.009 
+R@32 = 0.014 
+R@40 = 0.030 
+R@50 = 0.047 
+R@64 = 0.049 
+R@100 = 0.054 
+R@100 = 0.054 
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.005 0.005 0.009 0.014 0.030 0.047 0.049 0.054 0.054 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.001
+T@10 = 0.003
+T@20 = 0.002
+T@30 = 0.001
+T@32 = 0.001
+T@40 = 0.002
+T@50 = 0.002
+T@64 = 0.002
+T@100 = 0.001
+T@100 = 0.001
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.003 0.002 0.001 0.001 0.002 0.002 0.002 0.001 0.001 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.001 (696 queries 696 contributions)
+G0.95@10 = 0.004 (696 queries 2982 contributions)
+G0.95@20 = 0.004 (696 queries 4868 contributions)
+G0.95@30 = 0.006 (696 queries 6698 contributions)
+G0.95@32 = 0.007 (696 queries 7064 contributions)
+G0.95@40 = 0.007 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.004 0.004 0.006 0.007 0.007 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.001 (877 queries 877 contributions)
+G0.90@10 = 0.003 (877 queries 4259 contributions)
+G0.90@20 = 0.003 (877 queries 7061 contributions)
+G0.90@30 = 0.005 (877 queries 9395 contributions)
+G0.90@32 = 0.007 (877 queries 9761 contributions)
+G0.90@40 = 0.008 (877 queries 11085 contributions)
+G0.90@50 = 0.010 (877 queries 12565 contributions)
+G0.90@64 = 0.010 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.003 0.003 0.005 0.007 0.008 0.010 0.010 0.011 0.011 
+
+G0.85@1 = 0.001 (1033 queries 1033 contributions)
+G0.85@10 = 0.003 (1033 queries 5133 contributions)
+G0.85@20 = 0.003 (1033 queries 8197 contributions)
+G0.85@30 = 0.004 (1033 queries 10979 contributions)
+G0.85@32 = 0.006 (1033 queries 11456 contributions)
+G0.85@40 = 0.009 (1033 queries 12786 contributions)
+G0.85@50 = 0.012 (1033 queries 14266 contributions)
+G0.85@64 = 0.012 (1033 queries 16338 contributions)
+G0.85@100 = 0.012 (1033 queries 21666 contributions)
+G0.85@100 = 0.012 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.003 0.003 0.004 0.006 0.009 0.012 0.012 0.012 0.012 
+
+G0.80@1 = 0.001 (1146 queries 1146 contributions)
+G0.80@10 = 0.003 (1146 queries 5980 contributions)
+G0.80@20 = 0.003 (1146 queries 9375 contributions)
+G0.80@30 = 0.003 (1146 queries 12341 contributions)
+G0.80@32 = 0.005 (1146 queries 12902 contributions)
+G0.80@40 = 0.011 (1146 queries 14445 contributions)
+G0.80@50 = 0.014 (1146 queries 15925 contributions)
+G0.80@64 = 0.014 (1146 queries 17997 contributions)
+G0.80@100 = 0.014 (1146 queries 23325 contributions)
+G0.80@100 = 0.014 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.003 0.003 0.003 0.005 0.011 0.014 0.014 0.014 0.014 
+
+G0.75@1 = 0.001 (1309 queries 1309 contributions)
+G0.75@10 = 0.004 (1309 queries 6868 contributions)
+G0.75@20 = 0.004 (1309 queries 10548 contributions)
+G0.75@30 = 0.006 (1309 queries 13645 contributions)
+G0.75@32 = 0.007 (1309 queries 14248 contributions)
+G0.75@40 = 0.015 (1309 queries 15950 contributions)
+G0.75@50 = 0.019 (1309 queries 17430 contributions)
+G0.75@64 = 0.020 (1309 queries 19502 contributions)
+G0.75@100 = 0.020 (1309 queries 24830 contributions)
+G0.75@100 = 0.020 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.004 0.004 0.006 0.007 0.015 0.019 0.020 0.020 0.020 
+
+G0.70@1 = 0.001 (1644 queries 1644 contributions)
+G0.70@10 = 0.005 (1644 queries 7845 contributions)
+G0.70@20 = 0.005 (1644 queries 11784 contributions)
+G0.70@30 = 0.008 (1644 queries 15019 contributions)
+G0.70@32 = 0.011 (1644 queries 15653 contributions)
+G0.70@40 = 0.019 (1644 queries 17522 contributions)
+G0.70@50 = 0.028 (1644 queries 19042 contributions)
+G0.70@64 = 0.030 (1644 queries 21170 contributions)
+G0.70@100 = 0.032 (1644 queries 26642 contributions)
+G0.70@100 = 0.032 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.005 0.005 0.008 0.011 0.019 0.028 0.030 0.032 0.032 
+
+G0.65@1 = 0.000 (2130 queries 2130 contributions)
+G0.65@10 = 0.005 (2130 queries 9211 contributions)
+G0.65@20 = 0.005 (2130 queries 13612 contributions)
+G0.65@30 = 0.007 (2130 queries 17036 contributions)
+G0.65@32 = 0.011 (2130 queries 17696 contributions)
+G0.65@40 = 0.024 (2130 queries 19922 contributions)
+G0.65@50 = 0.034 (2130 queries 21615 contributions)
+G0.65@64 = 0.037 (2130 queries 23757 contributions)
+G0.65@100 = 0.038 (2130 queries 29265 contributions)
+G0.65@100 = 0.038 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.000 0.005 0.005 0.007 0.011 0.024 0.034 0.037 0.038 0.038 
+
+G0.50@1 = 0.001 (3736 queries 3736 contributions)
+G0.50@10 = 0.005 (3736 queries 13650 contributions)
+G0.50@20 = 0.006 (3736 queries 19161 contributions)
+G0.50@30 = 0.009 (3736 queries 22991 contributions)
+G0.50@32 = 0.012 (3736 queries 23687 contributions)
+G0.50@40 = 0.024 (3736 queries 26090 contributions)
+G0.50@50 = 0.038 (3736 queries 28070 contributions)
+G0.50@64 = 0.040 (3736 queries 30443 contributions)
+G0.50@100 = 0.045 (3736 queries 35989 contributions)
+G0.50@100 = 0.045 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.001 0.005 0.006 0.009 0.012 0.024 0.038 0.040 0.045 0.045 
+
+STATS_GROUPS: 2 4000 19 40
+Creating index...
+Created index, used 100503ms. 
+Querying...
+Queried 3736 datapoints, used 58787ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.003 
+R@10 = 0.024 
+R@20 = 0.055 
+R@30 = 0.060 
+R@32 = 0.062 
+R@40 = 0.065 
+R@50 = 0.067 
+R@64 = 0.069 
+R@100 = 0.071 
+R@100 = 0.071 
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.024 0.055 0.060 0.062 0.065 0.067 0.069 0.071 0.071 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.003
+T@10 = 0.005
+T@20 = 0.006
+T@30 = 0.005
+T@32 = 0.005
+T@40 = 0.005
+T@50 = 0.004
+T@64 = 0.003
+T@100 = 0.003
+T@100 = 0.003
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.005 0.006 0.005 0.005 0.005 0.004 0.003 0.003 0.003 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.004 (696 queries 696 contributions)
+G0.95@10 = 0.007 (696 queries 2982 contributions)
+G0.95@20 = 0.007 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.007 0.007 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.003 (877 queries 877 contributions)
+G0.90@10 = 0.009 (877 queries 4259 contributions)
+G0.90@20 = 0.010 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.009 0.010 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.003 (1033 queries 1033 contributions)
+G0.85@10 = 0.008 (1033 queries 5133 contributions)
+G0.85@20 = 0.011 (1033 queries 8197 contributions)
+G0.85@30 = 0.012 (1033 queries 10979 contributions)
+G0.85@32 = 0.012 (1033 queries 11456 contributions)
+G0.85@40 = 0.012 (1033 queries 12786 contributions)
+G0.85@50 = 0.012 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.008 0.011 0.012 0.012 0.012 0.012 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.007 (1146 queries 5980 contributions)
+G0.80@20 = 0.013 (1146 queries 9375 contributions)
+G0.80@30 = 0.014 (1146 queries 12341 contributions)
+G0.80@32 = 0.015 (1146 queries 12902 contributions)
+G0.80@40 = 0.015 (1146 queries 14445 contributions)
+G0.80@50 = 0.015 (1146 queries 15925 contributions)
+G0.80@64 = 0.016 (1146 queries 17997 contributions)
+G0.80@100 = 0.016 (1146 queries 23325 contributions)
+G0.80@100 = 0.016 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.007 0.013 0.014 0.015 0.015 0.015 0.016 0.016 0.016 
+
+G0.75@1 = 0.002 (1309 queries 1309 contributions)
+G0.75@10 = 0.011 (1309 queries 6868 contributions)
+G0.75@20 = 0.020 (1309 queries 10548 contributions)
+G0.75@30 = 0.021 (1309 queries 13645 contributions)
+G0.75@32 = 0.022 (1309 queries 14248 contributions)
+G0.75@40 = 0.023 (1309 queries 15950 contributions)
+G0.75@50 = 0.024 (1309 queries 17430 contributions)
+G0.75@64 = 0.025 (1309 queries 19502 contributions)
+G0.75@100 = 0.026 (1309 queries 24830 contributions)
+G0.75@100 = 0.026 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.011 0.020 0.021 0.022 0.023 0.024 0.025 0.026 0.026 
+
+G0.70@1 = 0.002 (1644 queries 1644 contributions)
+G0.70@10 = 0.017 (1644 queries 7845 contributions)
+G0.70@20 = 0.031 (1644 queries 11784 contributions)
+G0.70@30 = 0.033 (1644 queries 15019 contributions)
+G0.70@32 = 0.034 (1644 queries 15653 contributions)
+G0.70@40 = 0.037 (1644 queries 17522 contributions)
+G0.70@50 = 0.038 (1644 queries 19042 contributions)
+G0.70@64 = 0.040 (1644 queries 21170 contributions)
+G0.70@100 = 0.040 (1644 queries 26642 contributions)
+G0.70@100 = 0.040 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.017 0.031 0.033 0.034 0.037 0.038 0.040 0.040 0.040 
+
+G0.65@1 = 0.002 (2130 queries 2130 contributions)
+G0.65@10 = 0.020 (2130 queries 9211 contributions)
+G0.65@20 = 0.038 (2130 queries 13612 contributions)
+G0.65@30 = 0.040 (2130 queries 17036 contributions)
+G0.65@32 = 0.041 (2130 queries 17696 contributions)
+G0.65@40 = 0.044 (2130 queries 19922 contributions)
+G0.65@50 = 0.045 (2130 queries 21615 contributions)
+G0.65@64 = 0.046 (2130 queries 23757 contributions)
+G0.65@100 = 0.048 (2130 queries 29265 contributions)
+G0.65@100 = 0.048 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.020 0.038 0.040 0.041 0.044 0.045 0.046 0.048 0.048 
+
+G0.50@1 = 0.003 (3736 queries 3736 contributions)
+G0.50@10 = 0.020 (3736 queries 13650 contributions)
+G0.50@20 = 0.045 (3736 queries 19161 contributions)
+G0.50@30 = 0.052 (3736 queries 22991 contributions)
+G0.50@32 = 0.053 (3736 queries 23687 contributions)
+G0.50@40 = 0.057 (3736 queries 26090 contributions)
+G0.50@50 = 0.059 (3736 queries 28070 contributions)
+G0.50@64 = 0.062 (3736 queries 30443 contributions)
+G0.50@100 = 0.065 (3736 queries 35989 contributions)
+G0.50@100 = 0.065 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.020 0.045 0.052 0.053 0.057 0.059 0.062 0.065 0.065 
+
+STATS_GROUPS: 2 8000 19 40
+Creating index...
+Created index, used 107308ms. 
+Querying...
+Queried 3736 datapoints, used 45227ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.005 
+R@10 = 0.064 
+R@20 = 0.072 
+R@30 = 0.076 
+R@32 = 0.076 
+R@40 = 0.077 
+R@50 = 0.078 
+R@64 = 0.078 
+R@100 = 0.080 
+R@100 = 0.080 
+1 10 20 30 32 40 50 64 100 100 
+0.005 0.064 0.072 0.076 0.076 0.077 0.078 0.078 0.080 0.080 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.005
+T@10 = 0.014
+T@20 = 0.012
+T@30 = 0.009
+T@32 = 0.009
+T@40 = 0.008
+T@50 = 0.007
+T@64 = 0.005
+T@100 = 0.004
+T@100 = 0.004
+1 10 20 30 32 40 50 64 100 100 
+0.005 0.014 0.012 0.009 0.009 0.008 0.007 0.005 0.004 0.004 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.003 (696 queries 696 contributions)
+G0.95@10 = 0.007 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.007 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.002 (877 queries 877 contributions)
+G0.90@10 = 0.010 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.010 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.002 (1033 queries 1033 contributions)
+G0.85@10 = 0.011 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.011 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.002 (1146 queries 1146 contributions)
+G0.80@10 = 0.014 (1146 queries 5980 contributions)
+G0.80@20 = 0.016 (1146 queries 9375 contributions)
+G0.80@30 = 0.016 (1146 queries 12341 contributions)
+G0.80@32 = 0.016 (1146 queries 12902 contributions)
+G0.80@40 = 0.016 (1146 queries 14445 contributions)
+G0.80@50 = 0.016 (1146 queries 15925 contributions)
+G0.80@64 = 0.016 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.014 0.016 0.016 0.016 0.016 0.016 0.016 0.017 0.017 
+
+G0.75@1 = 0.002 (1309 queries 1309 contributions)
+G0.75@10 = 0.022 (1309 queries 6868 contributions)
+G0.75@20 = 0.025 (1309 queries 10548 contributions)
+G0.75@30 = 0.026 (1309 queries 13645 contributions)
+G0.75@32 = 0.026 (1309 queries 14248 contributions)
+G0.75@40 = 0.026 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.022 0.025 0.026 0.026 0.026 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.002 (1644 queries 1644 contributions)
+G0.70@10 = 0.034 (1644 queries 7845 contributions)
+G0.70@20 = 0.038 (1644 queries 11784 contributions)
+G0.70@30 = 0.040 (1644 queries 15019 contributions)
+G0.70@32 = 0.041 (1644 queries 15653 contributions)
+G0.70@40 = 0.041 (1644 queries 17522 contributions)
+G0.70@50 = 0.041 (1644 queries 19042 contributions)
+G0.70@64 = 0.042 (1644 queries 21170 contributions)
+G0.70@100 = 0.042 (1644 queries 26642 contributions)
+G0.70@100 = 0.042 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.002 0.034 0.038 0.040 0.041 0.041 0.041 0.042 0.042 0.042 
+
+G0.65@1 = 0.003 (2130 queries 2130 contributions)
+G0.65@10 = 0.041 (2130 queries 9211 contributions)
+G0.65@20 = 0.046 (2130 queries 13612 contributions)
+G0.65@30 = 0.048 (2130 queries 17036 contributions)
+G0.65@32 = 0.048 (2130 queries 17696 contributions)
+G0.65@40 = 0.049 (2130 queries 19922 contributions)
+G0.65@50 = 0.049 (2130 queries 21615 contributions)
+G0.65@64 = 0.049 (2130 queries 23757 contributions)
+G0.65@100 = 0.049 (2130 queries 29265 contributions)
+G0.65@100 = 0.049 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.041 0.046 0.048 0.048 0.049 0.049 0.049 0.049 0.049 
+
+G0.50@1 = 0.005 (3736 queries 3736 contributions)
+G0.50@10 = 0.055 (3736 queries 13650 contributions)
+G0.50@20 = 0.066 (3736 queries 19161 contributions)
+G0.50@30 = 0.070 (3736 queries 22991 contributions)
+G0.50@32 = 0.071 (3736 queries 23687 contributions)
+G0.50@40 = 0.073 (3736 queries 26090 contributions)
+G0.50@50 = 0.074 (3736 queries 28070 contributions)
+G0.50@64 = 0.075 (3736 queries 30443 contributions)
+G0.50@100 = 0.078 (3736 queries 35989 contributions)
+G0.50@100 = 0.078 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.005 0.055 0.066 0.070 0.071 0.073 0.074 0.075 0.078 0.078 
+
+STATS_GROUPS: 2 16000 19 40
+Creating index...
+Created index, used 105713ms. 
+Querying...
+Queried 3736 datapoints, used 142339ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.006 
+R@10 = 0.077 
+R@20 = 0.079 
+R@30 = 0.080 
+R@32 = 0.080 
+R@40 = 0.080 
+R@50 = 0.080 
+R@64 = 0.080 
+R@100 = 0.081 
+R@100 = 0.081 
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.077 0.079 0.080 0.080 0.080 0.080 0.080 0.081 0.081 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.006
+T@10 = 0.023
+T@20 = 0.017
+T@30 = 0.013
+T@32 = 0.012
+T@40 = 0.010
+T@50 = 0.008
+T@64 = 0.007
+T@100 = 0.005
+T@100 = 0.005
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.023 0.017 0.013 0.012 0.010 0.008 0.007 0.005 0.005 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.004 (696 queries 696 contributions)
+G0.95@10 = 0.009 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.003 (877 queries 877 contributions)
+G0.90@10 = 0.011 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.003 (1033 queries 1033 contributions)
+G0.85@10 = 0.013 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.016 (1146 queries 5980 contributions)
+G0.80@20 = 0.016 (1146 queries 9375 contributions)
+G0.80@30 = 0.017 (1146 queries 12341 contributions)
+G0.80@32 = 0.017 (1146 queries 12902 contributions)
+G0.80@40 = 0.017 (1146 queries 14445 contributions)
+G0.80@50 = 0.017 (1146 queries 15925 contributions)
+G0.80@64 = 0.017 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.016 0.016 0.017 0.017 0.017 0.017 0.017 0.017 0.017 
+
+G0.75@1 = 0.003 (1309 queries 1309 contributions)
+G0.75@10 = 0.026 (1309 queries 6868 contributions)
+G0.75@20 = 0.027 (1309 queries 10548 contributions)
+G0.75@30 = 0.027 (1309 queries 13645 contributions)
+G0.75@32 = 0.027 (1309 queries 14248 contributions)
+G0.75@40 = 0.027 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.026 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.003 (1644 queries 1644 contributions)
+G0.70@10 = 0.040 (1644 queries 7845 contributions)
+G0.70@20 = 0.041 (1644 queries 11784 contributions)
+G0.70@30 = 0.042 (1644 queries 15019 contributions)
+G0.70@32 = 0.042 (1644 queries 15653 contributions)
+G0.70@40 = 0.042 (1644 queries 17522 contributions)
+G0.70@50 = 0.042 (1644 queries 19042 contributions)
+G0.70@64 = 0.042 (1644 queries 21170 contributions)
+G0.70@100 = 0.042 (1644 queries 26642 contributions)
+G0.70@100 = 0.042 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.040 0.041 0.042 0.042 0.042 0.042 0.042 0.042 0.042 
+
+G0.65@1 = 0.003 (2130 queries 2130 contributions)
+G0.65@10 = 0.048 (2130 queries 9211 contributions)
+G0.65@20 = 0.049 (2130 queries 13612 contributions)
+G0.65@30 = 0.049 (2130 queries 17036 contributions)
+G0.65@32 = 0.049 (2130 queries 17696 contributions)
+G0.65@40 = 0.050 (2130 queries 19922 contributions)
+G0.65@50 = 0.050 (2130 queries 21615 contributions)
+G0.65@64 = 0.050 (2130 queries 23757 contributions)
+G0.65@100 = 0.050 (2130 queries 29265 contributions)
+G0.65@100 = 0.050 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.048 0.049 0.049 0.049 0.050 0.050 0.050 0.050 0.050 
+
+G0.50@1 = 0.006 (3736 queries 3736 contributions)
+G0.50@10 = 0.071 (3736 queries 13650 contributions)
+G0.50@20 = 0.076 (3736 queries 19161 contributions)
+G0.50@30 = 0.077 (3736 queries 22991 contributions)
+G0.50@32 = 0.078 (3736 queries 23687 contributions)
+G0.50@40 = 0.078 (3736 queries 26090 contributions)
+G0.50@50 = 0.079 (3736 queries 28070 contributions)
+G0.50@64 = 0.079 (3736 queries 30443 contributions)
+G0.50@100 = 0.080 (3736 queries 35989 contributions)
+G0.50@100 = 0.080 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.071 0.076 0.077 0.078 0.078 0.079 0.079 0.080 0.080 
+
+STATS_GROUPS: 2 32000 19 40
+Creating index...
+Created index, used 103976ms. 
+Querying...
+Queried 3736 datapoints, used 138719ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.006 
+R@10 = 0.081 
+R@20 = 0.082 
+R@30 = 0.084 
+R@32 = 0.084 
+R@40 = 0.086 
+R@50 = 0.086 
+R@64 = 0.087 
+R@100 = 0.088 
+R@100 = 0.088 
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.081 0.082 0.084 0.084 0.086 0.086 0.087 0.088 0.088 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.006
+T@10 = 0.029
+T@20 = 0.021
+T@30 = 0.016
+T@32 = 0.015
+T@40 = 0.013
+T@50 = 0.011
+T@64 = 0.009
+T@100 = 0.006
+T@100 = 0.006
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.029 0.021 0.016 0.015 0.013 0.011 0.009 0.006 0.006 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.006 (696 queries 696 contributions)
+G0.95@10 = 0.009 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.005 (877 queries 877 contributions)
+G0.90@10 = 0.011 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.005 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.004 (1033 queries 1033 contributions)
+G0.85@10 = 0.013 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.016 (1146 queries 5980 contributions)
+G0.80@20 = 0.017 (1146 queries 9375 contributions)
+G0.80@30 = 0.017 (1146 queries 12341 contributions)
+G0.80@32 = 0.017 (1146 queries 12902 contributions)
+G0.80@40 = 0.017 (1146 queries 14445 contributions)
+G0.80@50 = 0.017 (1146 queries 15925 contributions)
+G0.80@64 = 0.017 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.016 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 
+
+G0.75@1 = 0.004 (1309 queries 1309 contributions)
+G0.75@10 = 0.026 (1309 queries 6868 contributions)
+G0.75@20 = 0.027 (1309 queries 10548 contributions)
+G0.75@30 = 0.027 (1309 queries 13645 contributions)
+G0.75@32 = 0.027 (1309 queries 14248 contributions)
+G0.75@40 = 0.027 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.026 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.004 (1644 queries 1644 contributions)
+G0.70@10 = 0.041 (1644 queries 7845 contributions)
+G0.70@20 = 0.042 (1644 queries 11784 contributions)
+G0.70@30 = 0.043 (1644 queries 15019 contributions)
+G0.70@32 = 0.043 (1644 queries 15653 contributions)
+G0.70@40 = 0.043 (1644 queries 17522 contributions)
+G0.70@50 = 0.043 (1644 queries 19042 contributions)
+G0.70@64 = 0.044 (1644 queries 21170 contributions)
+G0.70@100 = 0.044 (1644 queries 26642 contributions)
+G0.70@100 = 0.044 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.041 0.042 0.043 0.043 0.043 0.043 0.044 0.044 0.044 
+
+G0.65@1 = 0.004 (2130 queries 2130 contributions)
+G0.65@10 = 0.049 (2130 queries 9211 contributions)
+G0.65@20 = 0.049 (2130 queries 13612 contributions)
+G0.65@30 = 0.051 (2130 queries 17036 contributions)
+G0.65@32 = 0.051 (2130 queries 17696 contributions)
+G0.65@40 = 0.051 (2130 queries 19922 contributions)
+G0.65@50 = 0.051 (2130 queries 21615 contributions)
+G0.65@64 = 0.052 (2130 queries 23757 contributions)
+G0.65@100 = 0.052 (2130 queries 29265 contributions)
+G0.65@100 = 0.052 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.049 0.049 0.051 0.051 0.051 0.051 0.052 0.052 0.052 
+
+G0.50@1 = 0.006 (3736 queries 3736 contributions)
+G0.50@10 = 0.077 (3736 queries 13650 contributions)
+G0.50@20 = 0.082 (3736 queries 19161 contributions)
+G0.50@30 = 0.083 (3736 queries 22991 contributions)
+G0.50@32 = 0.083 (3736 queries 23687 contributions)
+G0.50@40 = 0.086 (3736 queries 26090 contributions)
+G0.50@50 = 0.087 (3736 queries 28070 contributions)
+G0.50@64 = 0.088 (3736 queries 30443 contributions)
+G0.50@100 = 0.088 (3736 queries 35989 contributions)
+G0.50@100 = 0.088 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.077 0.082 0.083 0.083 0.086 0.087 0.088 0.088 0.088 
+
+STATS_GROUPS: 3 2000 19 40
+Creating index...
+Created index, used 119254ms. 
+Querying...
+Queried 3736 datapoints, used 262928ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.006 
+R@10 = 0.072 
+R@20 = 0.074 
+R@30 = 0.074 
+R@32 = 0.075 
+R@40 = 0.075 
+R@50 = 0.075 
+R@64 = 0.075 
+R@100 = 0.075 
+R@100 = 0.075 
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.072 0.074 0.074 0.075 0.075 0.075 0.075 0.075 0.075 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.006
+T@10 = 0.022
+T@20 = 0.014
+T@30 = 0.010
+T@32 = 0.010
+T@40 = 0.008
+T@50 = 0.007
+T@64 = 0.005
+T@100 = 0.004
+T@100 = 0.004
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.022 0.014 0.010 0.010 0.008 0.007 0.005 0.004 0.004 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.006 (696 queries 696 contributions)
+G0.95@10 = 0.009 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.005 (877 queries 877 contributions)
+G0.90@10 = 0.011 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.005 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.004 (1033 queries 1033 contributions)
+G0.85@10 = 0.013 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.016 (1146 queries 5980 contributions)
+G0.80@20 = 0.017 (1146 queries 9375 contributions)
+G0.80@30 = 0.017 (1146 queries 12341 contributions)
+G0.80@32 = 0.017 (1146 queries 12902 contributions)
+G0.80@40 = 0.017 (1146 queries 14445 contributions)
+G0.80@50 = 0.017 (1146 queries 15925 contributions)
+G0.80@64 = 0.017 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.016 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 
+
+G0.75@1 = 0.004 (1309 queries 1309 contributions)
+G0.75@10 = 0.027 (1309 queries 6868 contributions)
+G0.75@20 = 0.027 (1309 queries 10548 contributions)
+G0.75@30 = 0.027 (1309 queries 13645 contributions)
+G0.75@32 = 0.027 (1309 queries 14248 contributions)
+G0.75@40 = 0.027 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.004 (1644 queries 1644 contributions)
+G0.70@10 = 0.041 (1644 queries 7845 contributions)
+G0.70@20 = 0.041 (1644 queries 11784 contributions)
+G0.70@30 = 0.041 (1644 queries 15019 contributions)
+G0.70@32 = 0.041 (1644 queries 15653 contributions)
+G0.70@40 = 0.042 (1644 queries 17522 contributions)
+G0.70@50 = 0.042 (1644 queries 19042 contributions)
+G0.70@64 = 0.042 (1644 queries 21170 contributions)
+G0.70@100 = 0.042 (1644 queries 26642 contributions)
+G0.70@100 = 0.042 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.041 0.041 0.041 0.041 0.042 0.042 0.042 0.042 0.042 
+
+G0.65@1 = 0.004 (2130 queries 2130 contributions)
+G0.65@10 = 0.048 (2130 queries 9211 contributions)
+G0.65@20 = 0.048 (2130 queries 13612 contributions)
+G0.65@30 = 0.049 (2130 queries 17036 contributions)
+G0.65@32 = 0.049 (2130 queries 17696 contributions)
+G0.65@40 = 0.050 (2130 queries 19922 contributions)
+G0.65@50 = 0.050 (2130 queries 21615 contributions)
+G0.65@64 = 0.050 (2130 queries 23757 contributions)
+G0.65@100 = 0.050 (2130 queries 29265 contributions)
+G0.65@100 = 0.050 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.048 0.048 0.049 0.049 0.050 0.050 0.050 0.050 0.050 
+
+G0.50@1 = 0.006 (3736 queries 3736 contributions)
+G0.50@10 = 0.066 (3736 queries 13650 contributions)
+G0.50@20 = 0.069 (3736 queries 19161 contributions)
+G0.50@30 = 0.070 (3736 queries 22991 contributions)
+G0.50@32 = 0.071 (3736 queries 23687 contributions)
+G0.50@40 = 0.071 (3736 queries 26090 contributions)
+G0.50@50 = 0.072 (3736 queries 28070 contributions)
+G0.50@64 = 0.072 (3736 queries 30443 contributions)
+G0.50@100 = 0.073 (3736 queries 35989 contributions)
+G0.50@100 = 0.073 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.066 0.069 0.070 0.071 0.071 0.072 0.072 0.073 0.073 
+
+STATS_GROUPS: 3 4000 19 40
+Creating index...
+Created index, used 122802ms. 
+Querying...
+Queried 3736 datapoints, used 284401ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.006 
+R@10 = 0.078 
+R@20 = 0.080 
+R@30 = 0.080 
+R@32 = 0.080 
+R@40 = 0.080 
+R@50 = 0.081 
+R@64 = 0.081 
+R@100 = 0.081 
+R@100 = 0.081 
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.078 0.080 0.080 0.080 0.080 0.081 0.081 0.081 0.081 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.006
+T@10 = 0.028
+T@20 = 0.019
+T@30 = 0.014
+T@32 = 0.013
+T@40 = 0.011
+T@50 = 0.009
+T@64 = 0.007
+T@100 = 0.005
+T@100 = 0.005
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.028 0.019 0.014 0.013 0.011 0.009 0.007 0.005 0.005 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.004 (696 queries 696 contributions)
+G0.95@10 = 0.009 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.003 (877 queries 877 contributions)
+G0.90@10 = 0.011 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.003 (1033 queries 1033 contributions)
+G0.85@10 = 0.013 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.017 (1146 queries 5980 contributions)
+G0.80@20 = 0.017 (1146 queries 9375 contributions)
+G0.80@30 = 0.017 (1146 queries 12341 contributions)
+G0.80@32 = 0.017 (1146 queries 12902 contributions)
+G0.80@40 = 0.017 (1146 queries 14445 contributions)
+G0.80@50 = 0.017 (1146 queries 15925 contributions)
+G0.80@64 = 0.017 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 
+
+G0.75@1 = 0.003 (1309 queries 1309 contributions)
+G0.75@10 = 0.027 (1309 queries 6868 contributions)
+G0.75@20 = 0.027 (1309 queries 10548 contributions)
+G0.75@30 = 0.027 (1309 queries 13645 contributions)
+G0.75@32 = 0.027 (1309 queries 14248 contributions)
+G0.75@40 = 0.027 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.003 (1644 queries 1644 contributions)
+G0.70@10 = 0.042 (1644 queries 7845 contributions)
+G0.70@20 = 0.042 (1644 queries 11784 contributions)
+G0.70@30 = 0.042 (1644 queries 15019 contributions)
+G0.70@32 = 0.042 (1644 queries 15653 contributions)
+G0.70@40 = 0.043 (1644 queries 17522 contributions)
+G0.70@50 = 0.043 (1644 queries 19042 contributions)
+G0.70@64 = 0.043 (1644 queries 21170 contributions)
+G0.70@100 = 0.043 (1644 queries 26642 contributions)
+G0.70@100 = 0.043 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.042 0.042 0.042 0.042 0.043 0.043 0.043 0.043 0.043 
+
+G0.65@1 = 0.003 (2130 queries 2130 contributions)
+G0.65@10 = 0.049 (2130 queries 9211 contributions)
+G0.65@20 = 0.050 (2130 queries 13612 contributions)
+G0.65@30 = 0.050 (2130 queries 17036 contributions)
+G0.65@32 = 0.050 (2130 queries 17696 contributions)
+G0.65@40 = 0.050 (2130 queries 19922 contributions)
+G0.65@50 = 0.050 (2130 queries 21615 contributions)
+G0.65@64 = 0.050 (2130 queries 23757 contributions)
+G0.65@100 = 0.050 (2130 queries 29265 contributions)
+G0.65@100 = 0.050 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.049 0.050 0.050 0.050 0.050 0.050 0.050 0.050 0.050 
+
+G0.50@1 = 0.006 (3736 queries 3736 contributions)
+G0.50@10 = 0.075 (3736 queries 13650 contributions)
+G0.50@20 = 0.078 (3736 queries 19161 contributions)
+G0.50@30 = 0.079 (3736 queries 22991 contributions)
+G0.50@32 = 0.079 (3736 queries 23687 contributions)
+G0.50@40 = 0.079 (3736 queries 26090 contributions)
+G0.50@50 = 0.080 (3736 queries 28070 contributions)
+G0.50@64 = 0.080 (3736 queries 30443 contributions)
+G0.50@100 = 0.080 (3736 queries 35989 contributions)
+G0.50@100 = 0.080 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.075 0.078 0.079 0.079 0.079 0.080 0.080 0.080 0.080 
+
+STATS_GROUPS: 3 8000 19 40
+Creating index...
+Created index, used 120528ms. 
+Querying...
+Queried 3736 datapoints, used 259161ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.006 
+R@10 = 0.080 
+R@20 = 0.081 
+R@30 = 0.082 
+R@32 = 0.082 
+R@40 = 0.083 
+R@50 = 0.084 
+R@64 = 0.084 
+R@100 = 0.087 
+R@100 = 0.087 
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.080 0.081 0.082 0.082 0.083 0.084 0.084 0.087 0.087 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.006
+T@10 = 0.031
+T@20 = 0.021
+T@30 = 0.015
+T@32 = 0.015
+T@40 = 0.012
+T@50 = 0.010
+T@64 = 0.008
+T@100 = 0.006
+T@100 = 0.006
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.031 0.021 0.015 0.015 0.012 0.010 0.008 0.006 0.006 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.004 (696 queries 696 contributions)
+G0.95@10 = 0.009 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.003 (877 queries 877 contributions)
+G0.90@10 = 0.011 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.003 (1033 queries 1033 contributions)
+G0.85@10 = 0.013 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.017 (1146 queries 5980 contributions)
+G0.80@20 = 0.017 (1146 queries 9375 contributions)
+G0.80@30 = 0.017 (1146 queries 12341 contributions)
+G0.80@32 = 0.017 (1146 queries 12902 contributions)
+G0.80@40 = 0.017 (1146 queries 14445 contributions)
+G0.80@50 = 0.017 (1146 queries 15925 contributions)
+G0.80@64 = 0.017 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 
+
+G0.75@1 = 0.003 (1309 queries 1309 contributions)
+G0.75@10 = 0.027 (1309 queries 6868 contributions)
+G0.75@20 = 0.027 (1309 queries 10548 contributions)
+G0.75@30 = 0.027 (1309 queries 13645 contributions)
+G0.75@32 = 0.027 (1309 queries 14248 contributions)
+G0.75@40 = 0.027 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.003 (1644 queries 1644 contributions)
+G0.70@10 = 0.042 (1644 queries 7845 contributions)
+G0.70@20 = 0.042 (1644 queries 11784 contributions)
+G0.70@30 = 0.043 (1644 queries 15019 contributions)
+G0.70@32 = 0.043 (1644 queries 15653 contributions)
+G0.70@40 = 0.043 (1644 queries 17522 contributions)
+G0.70@50 = 0.043 (1644 queries 19042 contributions)
+G0.70@64 = 0.044 (1644 queries 21170 contributions)
+G0.70@100 = 0.044 (1644 queries 26642 contributions)
+G0.70@100 = 0.044 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.042 0.042 0.043 0.043 0.043 0.043 0.044 0.044 0.044 
+
+G0.65@1 = 0.003 (2130 queries 2130 contributions)
+G0.65@10 = 0.050 (2130 queries 9211 contributions)
+G0.65@20 = 0.050 (2130 queries 13612 contributions)
+G0.65@30 = 0.051 (2130 queries 17036 contributions)
+G0.65@32 = 0.051 (2130 queries 17696 contributions)
+G0.65@40 = 0.051 (2130 queries 19922 contributions)
+G0.65@50 = 0.051 (2130 queries 21615 contributions)
+G0.65@64 = 0.052 (2130 queries 23757 contributions)
+G0.65@100 = 0.052 (2130 queries 29265 contributions)
+G0.65@100 = 0.052 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.050 0.050 0.051 0.051 0.051 0.051 0.052 0.052 0.052 
+
+G0.50@1 = 0.006 (3736 queries 3736 contributions)
+G0.50@10 = 0.078 (3736 queries 13650 contributions)
+G0.50@20 = 0.081 (3736 queries 19161 contributions)
+G0.50@30 = 0.082 (3736 queries 22991 contributions)
+G0.50@32 = 0.082 (3736 queries 23687 contributions)
+G0.50@40 = 0.083 (3736 queries 26090 contributions)
+G0.50@50 = 0.084 (3736 queries 28070 contributions)
+G0.50@64 = 0.085 (3736 queries 30443 contributions)
+G0.50@100 = 0.087 (3736 queries 35989 contributions)
+G0.50@100 = 0.087 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.078 0.081 0.082 0.082 0.083 0.084 0.085 0.087 0.087 
+
+STATS_GROUPS: 3 16000 19 40
+Creating index...
+Created index, used 122381ms. 
+Querying...
+Queried 3736 datapoints, used 419870ms. 
+S@1 = 0.725 
+S@10 = 0.450 
+S@20 = 0.352 
+S@30 = 0.295 
+S@32 = 0.286 
+S@40 = 0.256 
+S@50 = 0.225 
+S@64 = 0.195 
+S@100 = 0.150 
+S@100 = 0.150 
+1 10 20 30 32 40 50 64 100 100 
+0.725 0.450 0.352 0.295 0.286 0.256 0.225 0.195 0.150 0.150 
+
+
+R@k: Average fraction of query where the nearest neighbor is in the k first results. 
+R@1 = 0.006 
+R@10 = 0.086 
+R@20 = 0.087 
+R@30 = 0.088 
+R@32 = 0.088 
+R@40 = 0.088 
+R@50 = 0.088 
+R@64 = 0.088 
+R@100 = 0.088 
+R@100 = 0.088 
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.086 0.087 0.088 0.088 0.088 0.088 0.088 0.088 0.088 
+
+
+T@k Average fraction of top k nearest neighbors returned in k first results. 
+T@1 = 0.006
+T@10 = 0.036
+T@20 = 0.027
+T@30 = 0.019
+T@32 = 0.019
+T@40 = 0.015
+T@50 = 0.012
+T@64 = 0.010
+T@100 = 0.006
+T@100 = 0.006
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.036 0.027 0.019 0.019 0.015 0.012 0.010 0.006 0.006 
+
+
+Gg@k: Average recall of sim>g neighbors in k first results. 
+G0.95@1 = 0.006 (696 queries 696 contributions)
+G0.95@10 = 0.009 (696 queries 2982 contributions)
+G0.95@20 = 0.009 (696 queries 4868 contributions)
+G0.95@30 = 0.009 (696 queries 6698 contributions)
+G0.95@32 = 0.009 (696 queries 7064 contributions)
+G0.95@40 = 0.009 (696 queries 8388 contributions)
+G0.95@50 = 0.009 (696 queries 9868 contributions)
+G0.95@64 = 0.009 (696 queries 11940 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+G0.95@100 = 0.009 (696 queries 17268 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 0.009 
+
+G0.90@1 = 0.005 (877 queries 877 contributions)
+G0.90@10 = 0.011 (877 queries 4259 contributions)
+G0.90@20 = 0.011 (877 queries 7061 contributions)
+G0.90@30 = 0.011 (877 queries 9395 contributions)
+G0.90@32 = 0.011 (877 queries 9761 contributions)
+G0.90@40 = 0.011 (877 queries 11085 contributions)
+G0.90@50 = 0.011 (877 queries 12565 contributions)
+G0.90@64 = 0.011 (877 queries 14637 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+G0.90@100 = 0.011 (877 queries 19965 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.005 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 0.011 
+
+G0.85@1 = 0.004 (1033 queries 1033 contributions)
+G0.85@10 = 0.013 (1033 queries 5133 contributions)
+G0.85@20 = 0.013 (1033 queries 8197 contributions)
+G0.85@30 = 0.013 (1033 queries 10979 contributions)
+G0.85@32 = 0.013 (1033 queries 11456 contributions)
+G0.85@40 = 0.013 (1033 queries 12786 contributions)
+G0.85@50 = 0.013 (1033 queries 14266 contributions)
+G0.85@64 = 0.013 (1033 queries 16338 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+G0.85@100 = 0.013 (1033 queries 21666 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 0.013 
+
+G0.80@1 = 0.003 (1146 queries 1146 contributions)
+G0.80@10 = 0.017 (1146 queries 5980 contributions)
+G0.80@20 = 0.017 (1146 queries 9375 contributions)
+G0.80@30 = 0.017 (1146 queries 12341 contributions)
+G0.80@32 = 0.017 (1146 queries 12902 contributions)
+G0.80@40 = 0.017 (1146 queries 14445 contributions)
+G0.80@50 = 0.017 (1146 queries 15925 contributions)
+G0.80@64 = 0.017 (1146 queries 17997 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+G0.80@100 = 0.017 (1146 queries 23325 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.003 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 0.017 
+
+G0.75@1 = 0.004 (1309 queries 1309 contributions)
+G0.75@10 = 0.027 (1309 queries 6868 contributions)
+G0.75@20 = 0.027 (1309 queries 10548 contributions)
+G0.75@30 = 0.027 (1309 queries 13645 contributions)
+G0.75@32 = 0.027 (1309 queries 14248 contributions)
+G0.75@40 = 0.027 (1309 queries 15950 contributions)
+G0.75@50 = 0.027 (1309 queries 17430 contributions)
+G0.75@64 = 0.027 (1309 queries 19502 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+G0.75@100 = 0.027 (1309 queries 24830 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 0.027 
+
+G0.70@1 = 0.004 (1644 queries 1644 contributions)
+G0.70@10 = 0.042 (1644 queries 7845 contributions)
+G0.70@20 = 0.043 (1644 queries 11784 contributions)
+G0.70@30 = 0.044 (1644 queries 15019 contributions)
+G0.70@32 = 0.044 (1644 queries 15653 contributions)
+G0.70@40 = 0.045 (1644 queries 17522 contributions)
+G0.70@50 = 0.045 (1644 queries 19042 contributions)
+G0.70@64 = 0.045 (1644 queries 21170 contributions)
+G0.70@100 = 0.045 (1644 queries 26642 contributions)
+G0.70@100 = 0.045 (1644 queries 26642 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.042 0.043 0.044 0.044 0.045 0.045 0.045 0.045 0.045 
+
+G0.65@1 = 0.004 (2130 queries 2130 contributions)
+G0.65@10 = 0.051 (2130 queries 9211 contributions)
+G0.65@20 = 0.051 (2130 queries 13612 contributions)
+G0.65@30 = 0.052 (2130 queries 17036 contributions)
+G0.65@32 = 0.052 (2130 queries 17696 contributions)
+G0.65@40 = 0.052 (2130 queries 19922 contributions)
+G0.65@50 = 0.052 (2130 queries 21615 contributions)
+G0.65@64 = 0.052 (2130 queries 23757 contributions)
+G0.65@100 = 0.052 (2130 queries 29265 contributions)
+G0.65@100 = 0.052 (2130 queries 29265 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.004 0.051 0.051 0.052 0.052 0.052 0.052 0.052 0.052 0.052 
+
+G0.50@1 = 0.006 (3736 queries 3736 contributions)
+G0.50@10 = 0.085 (3736 queries 13650 contributions)
+G0.50@20 = 0.088 (3736 queries 19161 contributions)
+G0.50@30 = 0.089 (3736 queries 22991 contributions)
+G0.50@32 = 0.089 (3736 queries 23687 contributions)
+G0.50@40 = 0.089 (3736 queries 26090 contributions)
+G0.50@50 = 0.089 (3736 queries 28070 contributions)
+G0.50@64 = 0.089 (3736 queries 30443 contributions)
+G0.50@100 = 0.089 (3736 queries 35989 contributions)
+G0.50@100 = 0.089 (3736 queries 35989 contributions)
+1 10 20 30 32 40 50 64 100 100 
+0.006 0.085 0.088 0.089 0.089 0.089 0.089 0.089 0.089 0.089 
+
+STATS_GROUPS: 4 2000 19 40
